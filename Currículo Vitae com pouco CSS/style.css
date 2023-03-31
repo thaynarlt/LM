@@ -1,0 +1,23 @@
+ 
+/* h2 {
+    color:rgb(230, 157, 0);
+    border-width: 1px;
+    border-color: black;
+    font-weight: bold ;
+    border-style: solid;
+    font-style: italic;
+} 
+*/
+
+p {
+    font-size: 16pt;
+}
+li {
+    text-decoration: underline;
+}
+
+.classeh2 {
+    color:orange;
+    font-style: italic;
+    font-weight: bold 
+}

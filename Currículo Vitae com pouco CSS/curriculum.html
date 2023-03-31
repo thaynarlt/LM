@@ -1,0 +1,101 @@
+<!-- Introdução ao CSS - Modificando Currículo(29/03/23)-->
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- <style>tem q ser aberto na tag HEAD-->
+    <meta charset="UTF-8" />
+    <title>Curriculum Vitae - HTML</title>
+    <link href="style.css" rel="stylesheet" />
+    
+    <style>
+
+        #id-experiencia {
+            font-style: italic;
+            font-size: large;
+        }
+        .italico {
+            font-style: italic;
+        }
+
+        .azul {
+            color: blue;
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <!--<h1 style="color: #cc951d">Thayná Tolentino</h1>-->
+    <h1 class="italico azul">Thayná Tolentino</h1>
+
+    <section>
+      <p><strong>Nascimento:</strong> <em>18/06/2005</em></p>
+      <p><strong>Email:</strong> <em>thaynarlt7@gmail.com</em></p>
+      <p><strong>Telefone:</strong> <em>(83)99673-1820</em></p>
+      <img src="Z:\20231370022\Documents\l. de marcação\avatar.png" width="8%" />
+      <p>Lorem ipsum</p>
+    </section>
+
+    <section>
+        <!--<h2 style ="font-family: monospace; font-size: 2em;">Endereço</h2>-->
+      <h2 class="classeh2">Endereço</h2>
+      <hr/>
+      <!-- DL -> Definition List -->
+      <dl>
+        <!-- DT -> Definition Term -->
+        <dt><strong>Rua</strong></dt>
+        <!-- DD -> Definition Description -->
+        <dd>Av. 1o de Maio, 720</dd>
+        <dt><strong>Cidade</strong></dt>
+        <dd>João Pessoa, PB</dd>
+        <dt><strong>Bairro</strong></dt>
+        <dd>Jaguaribe</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2 class="classeh2">Experiência</h2>
+      <hr />
+      <dl>
+        <dt>
+          <a href="https://www.ifpb.edu.br/institucional/sobre-o-ifpb">
+            <strong>Reitoria do IFPB</strong></a
+          >
+        </dt>
+        <dd>Desenvolvedor Front-End</dd>
+        <dd>2020 - 2023</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2 class="classeh2">Competências</h2>
+      <hr />
+      <!-- UL -> Unordered List -->
+      <ul>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>XML</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="classeh2">Formação Acadêmica</h2>
+      <hr />
+      <h3 class="italico">
+        <a href="https://www.ifpb.edu.br"
+          >Instituto Federal de Educação, Ciência e Tecnologia da Paraíba</a
+        >
+      </h3>
+      <p>Mestrado Profissional em Informática</p>
+      <p>2016 - Atual</p>
+      <h3 class="italico">
+        <a href="https://www.ifpb.edu.br"
+          >Instituto Federal de Educação, Ciência e Tecnologia da Paraíba</a
+        >
+      </h3>
+      <p>Curso Superior em TSI</p>
+      <p>2010 - 2013</p>
+    </section>
+  </body>
+</html>
