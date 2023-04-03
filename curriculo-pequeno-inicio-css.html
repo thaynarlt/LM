@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores CSS</title>
+    <style>
+        .texto-azul {
+            color: blue;
+        }
+        .texto-azul ~ p { 
+            color: orange
+        }
+
+        #curriculo h1 + p {
+            font-size: 18pt;
+        }
+        #secao-exp p {
+            color:blue
+        }
+        .thayna {
+            color: blueviolet;
+            font-family: Arial, Helvetica, sans-serif;
+            filter: drop-shadow(12);
+            
+        }
+    </style> <!-- o mais (+) em".texto-azul + p " é para indicar o vizinho imediato-->
+    <!-- o tio (~) em".texto-azul ~ p " é para indicar todos os vizinhos p-->
+    <!-- o maior (>) em" #curriculo > p" é para indicar todos os vizinhos p-->
+</head>
+<body>
+    <section id="curriculo">
+    <h1 class="thayna"><b>Curriculo de Thayna</b></h1>
+    <p>Introdução</p>
+    <p class="texto-azul">Nome: Thayná Lopes</p>
+    <div>
+    <p>Data de nascimento: xx/xx/xxxx </p>
+    <p>Email: xxxxxxx@gmail.com</p>
+    <p>Breve resumo: Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Maiores optio doloribus ipsum sapiente consequatur.</p>
+    </div>
+    <hr/>
+    </section>
+
+    <section id="secao-exp">
+    <h2> Experiências</h2>
+    <p>Linguagens já trabalhadas.</p>
+    <ul>
+        <li> HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    </section>
+</body>
+</html>
