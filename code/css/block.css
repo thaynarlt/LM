@@ -1,0 +1,28 @@
+
+.block {
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    margin: 5px auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.block .titulo {
+    color: rgba(0, 0, 0, .87);
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.block .periodo {
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.block .descricao {
+    color: rgba(0, 0, 0, .87);
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
