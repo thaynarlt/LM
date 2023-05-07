@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <!--
+		Gere uma table que contenha as notas de disciplinas de alguns ilustres alunos,
+		Os dados para preenchimento desta table estão na Figura 'exercicio-table-2.png'
+		(esta ilustra a exibição esperada como resposta deste exercício).
+
+		A table deve seguir os seguintes padrões de estilos:
+
+		1) Todo o texto deverá estar centralizado, exceto os nomes dos alunos que deverão
+		estar com alinhamento a esquerda.
+
+		2) Largura (width) em 50%, min-width de 300px, e com margin auto;
+
+		3) Bordas com collapse
+
+		4) Margem de distância do topo de 50px;
+
+		5) borda do topo e da base com 1px solid black;
+
+		6) As linhas ímpares, que contém os nomes dos alunos, deverão estar com o plano
+		de fundo na cor rgb(240,248,255).
+	-->
+  <head>
+    <title>Notas dos Alunos</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td id="sem_borda"></td>
+          <td>Linguagem de Marcação</td>
+          <td>Fundamentos da Computação</td>
+          <td>Algoritmos</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="impar">
+          <td class="nome">Ada Lovelace</td>
+          <td>9.0</td>
+          <td>10.0</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td class="nome">Grace Hopper</td>
+          <td>9.0</td>
+          <td>9.0</td>
+          <td>10.0</td>
+        </tr>
+        <tr class="impar">
+          <td class="nome">Alan Turing</td>
+          <td>9.0</td>
+          <td>9.0</td>
+          <td>10.0</td>
+        </tr>
+        <tr>
+          <td class="nome">Tim Berners-Lee</td>
+          <td>10.0</td>
+          <td>9.0</td>
+          <td>9.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
